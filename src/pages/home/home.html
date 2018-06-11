@@ -1,14 +1,63 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
-      Ionic Blank
+      <ion-icon name="paw"></ion-icon> GehFährte <ion-icon name="paw"></ion-icon>
     </ion-title>
   </ion-navbar>
 </ion-header>
 
+
+
 <ion-content padding>
-  The world is your oyster.
+  <h3>Tracke Dein Leben!</h3>
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+    Der GehFährte begleitet Dich auf Deinen Trails und Wanderungen, gibt Dir nützliche Tipps und bewertet Dich nach Deiner Leistung. 
   </p>
+      <ion-list>
+        <ion-item>
+          <ion-icon name="speedometer"></ion-icon>
+          Geschwindigkeit
+        </ion-item>
+        <ion-item>
+          <ion-icon name="cog"></ion-icon>
+          Länge
+        </ion-item>
+        <ion-item>
+          <ion-icon name="clock"></ion-icon>
+          Zeit
+        </ion-item>
+        <ion-item>
+          <ion-icon name="analytics"></ion-icon>
+          Herausfoderungsgrad
+        </ion-item>
+        <ion-item>
+          <ion-icon name="bug"></ion-icon>
+          Schönheit
+        </ion-item>
+        <ion-item>
+          <ion-icon name="infinite"></ion-icon>
+          Wiederholungen
+        </ion-item>
+      </ion-list>
+  <p>Aus all diesen Kriterien errechnet Dein GehFährte Dein persönliches Level. Du kannst Dir Deine Statisken ansehen, sie in der Cloud speichern und sie mit anderen über Soziale Netzwerke sharen.</p>
+  <p align="center"><ion-icon name="stats"></ion-icon>&nbsp;<ion-icon name="cloud-upload"></ion-icon>&nbsp;<ion-icon name="logo-facebook"></ion-icon></p>
+  <p>Für neue, noch unbegangen Trails, erhälst Du Auszeiuchnungen.</p>
+  <p align="center"><ion-icon name="trophy"></ion-icon>&nbsp;<ion-icon name="medal"></ion-icon>&nbsp;<ion-icon name="ribbon"></ion-icon></p>
+  
+  <button ion-button icon-left outline>
+      <ion-icon name="add-circle"></ion-icon>
+      Neue Wanderung
+    </button>
+    <button ion-button icon-left color="dark" outline>
+        <ion-icon name="globe"></ion-icon>
+        Wanderung Suchen
+      </button>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>
+      "Ich begleite Dich!"
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>
