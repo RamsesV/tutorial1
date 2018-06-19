@@ -1,0 +1,16 @@
+page-dashboard {
+    ion-content {
+        background-image: url('/assets/imgs/background.png');
+        //opacity: 0.5;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    ion-list {
+        opacity: 0.8;
+        background-image: url('/assets/imgs/background.png');
+    }
+    ion-item span {
+        text-align: rigth;
+        font-weight: bold;
+        padding-left: auto;
+    }
+}
